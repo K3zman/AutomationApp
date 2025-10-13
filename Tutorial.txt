@@ -1,1 +1,20 @@
 A continuación estos serán los pasos para ejecutar la automation de la app
+Proyecto base de WebdriverIO + Cucumber (BDD) + reporte y conectado a Appium
+Requisitos rápidos:
+
+Node.js 18+ (LTS recomendado).
+
+Java (lo necesita Allure para abrir el reporte).
+
+Android SDK bien configurado (ANDROID_HOME, adb version OK).
+
+Appium 2 (lo arrancaremos automáticamente con el Appium Service de WDIO).
+
+Pasos  para crear el framework de WebdriverIO para automatizar:
+Estructura de carpetas 
+undefined
+wdio-appium-bdd/├─ features/
+│  └─ sample.feature
+├─ steps/
+│  └─ sample.steps.js
+└─ wdio.conf.js
