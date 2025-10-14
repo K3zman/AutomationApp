@@ -1,0 +1,69 @@
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.1.10:51175/
+	http://127.0.0.1:51175/ (only accessible from the same host)
+[38;5;112m[Appium][0m No drivers have been installed in C:\Users\Kezman\Documents\QA_tester\Automation. Use the "appium driver" command to install the one(s) you want to use.
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}}[39m
+[38;5;87m[AppiumDriver@4f0a][0m Calling AppiumDriver.createSession() with args: [{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionRequested' logged at 1760452759972 (09:39:19 GMT-0500 (hora estándar de Colombia))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionStarted' logged at 1760452759976 (09:39:19 GMT-0500 (hora estándar de Colombia))
+[38;5;87m[AppiumDriver@4f0a][0m Encountered internal error running command: Error: Could not find a driver for automationName 'UiAutomator2' and platformName 'Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)
+    at DriverConfig.findMatchingDriver (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\extension\driver-config.js:173:13)
+    at AppiumDriver.createSession (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:303:35)
+    at runCommandPromise (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:116:20)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:161:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at defaultBehavior (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:726:16)
+    at AppiumDriver.executeWrappedCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:843:16)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:742:17)
+    at asyncHandler (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\protocol\protocol.ts:409:19)
+[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m32 ms - 2444[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}}[39m
+[38;5;87m[AppiumDriver@4f0a][0m Calling AppiumDriver.createSession() with args: [{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionRequested' logged at 1760452760013 (09:39:20 GMT-0500 (hora estándar de Colombia))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionStarted' logged at 1760452760014 (09:39:20 GMT-0500 (hora estándar de Colombia))
+[38;5;87m[AppiumDriver@4f0a][0m Encountered internal error running command: Error: Could not find a driver for automationName 'UiAutomator2' and platformName 'Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)
+    at DriverConfig.findMatchingDriver (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\extension\driver-config.js:173:13)
+    at AppiumDriver.createSession (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:303:35)
+    at runCommandPromise (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:116:20)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:161:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at defaultBehavior (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:726:16)
+    at AppiumDriver.executeWrappedCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:843:16)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:742:17)
+    at asyncHandler (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\protocol\protocol.ts:409:19)
+[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m2 ms - 2444[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}}[39m
+[38;5;87m[AppiumDriver@4f0a][0m Calling AppiumDriver.createSession() with args: [{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionRequested' logged at 1760452760532 (09:39:20 GMT-0500 (hora estándar de Colombia))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionStarted' logged at 1760452760533 (09:39:20 GMT-0500 (hora estándar de Colombia))
+[38;5;87m[AppiumDriver@4f0a][0m Encountered internal error running command: Error: Could not find a driver for automationName 'UiAutomator2' and platformName 'Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)
+    at DriverConfig.findMatchingDriver (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\extension\driver-config.js:173:13)
+    at AppiumDriver.createSession (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:303:35)
+    at runCommandPromise (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:116:20)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:161:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at defaultBehavior (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:726:16)
+    at AppiumDriver.executeWrappedCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:843:16)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:742:17)
+    at asyncHandler (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\protocol\protocol.ts:409:19)
+[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m2 ms - 2444[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}}[39m
+[38;5;87m[AppiumDriver@4f0a][0m Calling AppiumDriver.createSession() with args: [{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","appium:app":"C:/Users/Kezman/Documents/QA_tester/Automation/apps/android/MatchPaw-0.23.9.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionRequested' logged at 1760452761545 (09:39:21 GMT-0500 (hora estándar de Colombia))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;87m[AppiumDriver@4f0a][0m Event 'newSessionStarted' logged at 1760452761546 (09:39:21 GMT-0500 (hora estándar de Colombia))
+[38;5;87m[AppiumDriver@4f0a][0m Encountered internal error running command: Error: Could not find a driver for automationName 'UiAutomator2' and platformName 'Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)
+    at DriverConfig.findMatchingDriver (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\extension\driver-config.js:173:13)
+    at AppiumDriver.createSession (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:303:35)
+    at runCommandPromise (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:116:20)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\basedriver\driver.ts:161:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at defaultBehavior (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:726:16)
+    at AppiumDriver.executeWrappedCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:843:16)
+    at AppiumDriver.executeCommand (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\appium\lib\appium.js:742:17)
+    at asyncHandler (C:\Users\Kezman\Documents\QA_tester\Automation\node_modules\@appium\base-driver\lib\protocol\protocol.ts:409:19)
+[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m2 ms - 2444[39m [90m[39m

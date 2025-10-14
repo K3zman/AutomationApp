@@ -18,3 +18,4 @@ wdio-appium-bdd/├─ features/
 ├─ steps/
 │  └─ sample.steps.js
 └─ wdio.conf.js
+Este proyecto va a estar montado con arquitectura POM (Page object model) con BDD (Behavior development driver), y lenguaje Gerking  
