@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "wdio": "wdio run wdio.conf.js",
+    "setup": "npx appium driver install uiautomator2 || exit 0",
+    "test:apk": "npx wdio run wdio.conf.js",
+    "test:pkg": "APP_PACKAGE=com.android.settings APP_ACTIVITY=.Settings npx wdio run wdio.conf.js",
     "report": "allure generate allure-results --clean && allure open"
   },
   "repository": {
